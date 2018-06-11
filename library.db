@@ -1,0 +1,18 @@
+5, 3, 2
+
+// author_id (501 - 800), last_name, first_name, book_count
+{501 Zhou Nicole 2
+502 Xiang Hua 2
+503 Chen Paul 1}
+
+// publisher_id (801 - 1000), publisher_name, book_count
+{801 pub1 3
+802 pub 2}
+
+// book_id (1 - 500), author_id, publisher_id, title, price, year
+{1 502 801 testing1 89.99 2010
+2 501 802 testing2 100 2011
+3 503 802 testing3 26.5 1993
+4 501 801 testing4 205.6 2002
+5 502 801 testing5 38.9 2018}
+

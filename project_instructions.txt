@@ -1,0 +1,83 @@
+1. design db as txt file
+// bookCount, authorCount, publisherCount
+e.g. 200 28 5
+// book_id (2 - 201), author_id, publisher_id, book_count, price, year
+e.g. 2, 5, 3, 89.99, 2010
+
+// author_id (202 - 230), last_name, first_name, book_count
+
+// publisher_id (230 - 235), publisher_name
+
+===============================================================================================
+// command line arguements and read data from another file: e.g. book.exe lib.db
+int main (int argc, char * argv[])
+// argv[1] is lib.db
+
+===============================================================================================
+char line[] = "51 2 8";
+int a, b, c;
+sscanf(line, "%d, %d, %d", &a, &b, &c); // sscanf is used to scan string
+
+===============================================================================================
+import abc.txt
+
+===============================================================================================
+Insert SQL
+e.g insert a publisher:
+insert into publisher values ('pub3'); 
+
+or you can do this:
+insert publisher pub3;
+
+
+e.g. insert a book
+insert books 28 10 title 29.9 2017;
+
+===============================================================================================
+Delete SQL
+e.g. delete a book
+Delete book 58
+
+===============================================================================================
+Select SQL
+e.g.
+select from books where id = 58
+
+or you can do:
+select books id = 58
+
+select from books where title like "C programming"
+===============================================================================================
+note: typedef // redefine an existing struct/variable
+e.g. sizeof (struct book);
+=> typfedef struct book s_book;
+	sizeof (s_book);
+
+change type int to NUMBER
+e.g. typedef int NUMBER;
+NUMBER a, b, c;
+
+===============================================================================================
+random function:
+rand() // return a random number between 0 -> RAND_MAX
+
+e.g. generate a number between 10 -> 99.9
+float price = 10 + rand() * 89.99 / RAND_MAX;
+
+===============================================================================================
+Separate firstName and lastName for author:
+e.g. 
+author = "Jack Jones"
+char * p = strstr(author, " "); // get a pointer for the location of first " "
+*p = 0; // this means the end of "Jack"
+// now: author is firstName, i.e. "Jack"
+// *(p+1) is lastName, i.e. "Jones"
+
+===============================================================================================
+Summary for tips:
+1) typedef struct book s_book;
+2) use rand() -> 10 to 99.99
+3) split firstName and lastName
+
+
+

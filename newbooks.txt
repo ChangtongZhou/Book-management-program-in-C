@@ -1,0 +1,51 @@
+@Book{
+	book_id: {6},
+	author_id: {508},
+	pub_id: {805},
+    title: {The Property of A Gentleman},
+    author: {Helen Dickson},
+    publisher: {puba},
+    year: {2005}
+}
+
+@Book{
+	book_id: {9},
+	author_id: {508},
+	pub_id: {900},
+    title: {Beauty and the Beastie},
+    author: {Helen Dickson},
+    publisher: {pubb},
+    year: {1999}
+}
+
+
+@Book{
+	book_id: {10},
+	author_id: {506},
+	pub_id: {850},
+    title: {For the Heart},
+    author: {Catherine Coulter},
+    publisher: {pubc},
+    year: {2005}
+}
+
+
+@Book{
+	book_id: {8},
+	author_id: {610},
+	pub_id: {910},
+    title: {The gambler's bride},
+    author: {Ellen Fitzgerald},
+    publisher: {pubd},
+    year: {2002}
+}
+
+@Book{
+	book_id: {7},
+	author_id: {780},
+	pub_id: {880},
+    title: {The Frensham inheritance},
+    author: {Janette Oke},
+    publisher: {pube},
+    year: {2016}
+}
